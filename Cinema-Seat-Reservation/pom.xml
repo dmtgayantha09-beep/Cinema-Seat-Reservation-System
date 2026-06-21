@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.cinema</groupId>
+    <artifactId>Cinema-Seat-Reservation</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.release>26</maven.compiler.release>
+        <exec.mainClass>com.cinema.cinema.seat.reservation.CinemaSeatReservation</exec.mainClass>
+    </properties>
+<dependencies>
+        <dependency>
+            <groupId>groupId-here</groupId>
+            <artifactId>artifactId-here</artifactId>
+            <version>version-here</version>
+        </dependency> 
+    </dependencies>
+</project>
