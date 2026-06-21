@@ -11,10 +11,12 @@
         <exec.mainClass>com.cinema.cinema.seat.reservation.CinemaSeatReservation</exec.mainClass>
     </properties>
 <dependencies>
-        <dependency>
-            <groupId>groupId-here</groupId>
-            <artifactId>artifactId-here</artifactId>
-            <version>version-here</version>
-        </dependency> 
-    </dependencies>
+
+    <dependency>
+        <groupId>com.mysql</groupId>
+        <artifactId>mysql-connector-j</artifactId>
+        <version>9.3.0</version>
+    </dependency>
+
+</dependencies>
 </project>
