@@ -1,5 +1,11 @@
 package exception;
 
-public class InvalidUserException {
-    
+public class InvalidUserException
+        extends Exception {
+
+    public InvalidUserException(
+            String message) {
+
+        super(message);
+    }
 }
